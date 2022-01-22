@@ -1,5 +1,6 @@
 package com.pattern.abstractfactory;
 
+import com.pattern.abstractfactory.domain.Kingdom;
 import com.pattern.abstractfactory.domain.KingdomFactory;
 import com.pattern.abstractfactory.domain.enums.KingdomType;
 import com.pattern.abstractfactory.domain.elf.ElfKingdomFactory;
