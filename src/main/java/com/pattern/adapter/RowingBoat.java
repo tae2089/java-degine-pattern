@@ -1,5 +1,5 @@
 package com.pattern.adapter;
 
-public interface RowingBoaz {
+public interface RowingBoat {
     void row();
 }
