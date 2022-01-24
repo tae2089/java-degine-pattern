@@ -21,9 +21,9 @@ public class Aggregator {
     public Product getProduct(){
         var product = new Product();
         var productTitle = informationClient.getProductTitle();
-        var productInventry = inventoryClient.getProductInventories();
+        var productInventory = inventoryClient.getProductInventories();
         product.setTitle(requireNonNullElse(productTitle,"Error: Fetching Product Title Failed"));
-        product.setProductInventories(requireNonNullElse(productInventry,-1));
+        product.setProductInventories(requireNonNullElse(productInventory,-1));
         return product;
     }
 

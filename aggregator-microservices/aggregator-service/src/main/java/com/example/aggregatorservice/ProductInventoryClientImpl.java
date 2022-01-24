@@ -11,7 +11,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 @Component
-public class ProductInventoryClientImpl implements ProductInventoryClient{
+public class ProductInventoryClientImpl implements ProductInventoryClient {
 
     private Logger LOGGER = LogManager.getLogger();
 
